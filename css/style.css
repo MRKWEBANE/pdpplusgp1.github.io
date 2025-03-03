@@ -9709,6 +9709,7 @@ textarea.form-control {
     background-size: cover !important;
     background-position: center !important;
     height: 60% !important; /* Fixed height for the image (60% of the block height) */
+    width: 100% !important; /* Ensure image covers the full width */
 }
 
 .offer-deal .text {
@@ -9716,8 +9717,12 @@ textarea.form-control {
     background-color: #fff !important;
     height: 40% !important; /* The text section takes up the remaining 40% of the block height */
     overflow: hidden !important; /* Ensure no text overflow */
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important; /* Space out the text */
 }
 
+/* Make adjustments for larger screen sizes */
 @media (max-width: 1200px) {
     .offer-slider {
         gap: 15px !important; /* Smaller gap on smaller screens */
@@ -9727,6 +9732,7 @@ textarea.form-control {
     }
 }
 
+/* Make adjustments for mobile screens */
 @media (max-width: 768px) {
     .offer-slider {
         gap: 10px !important; /* Even smaller gap on mobile screens */
