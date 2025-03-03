@@ -9699,17 +9699,23 @@ textarea.form-control {
     flex: 0 0 auto !important;
     scroll-snap-align: start !important; /* Snap to the start of each item */
     width: 300px !important; /* Fixed width for each slide, adjust as needed */
+    height: 400px !important; /* Set a fixed height for each deal block */
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important; /* Space out the contents */
 }
 
 .offer-deal .img {
     background-size: cover !important;
     background-position: center !important;
-    height: 300px !important; /* Adjust height as per your design */
+    height: 60% !important; /* Fixed height for the image (60% of the block height) */
 }
 
 .offer-deal .text {
     padding: 20px !important;
     background-color: #fff !important;
+    height: 40% !important; /* The text section takes up the remaining 40% of the block height */
+    overflow: hidden !important; /* Ensure no text overflow */
 }
 
 @media (max-width: 1200px) {
@@ -9727,5 +9733,12 @@ textarea.form-control {
     }
     .offer-deal {
         width: 100% !important; /* Full width for mobile */
+        height: auto !important; /* Allow height to adjust on mobile */
+    }
+    .offer-deal .img {
+        height: 50% !important; /* Adjust image height for mobile */
+    }
+    .offer-deal .text {
+        height: 50% !important; /* Adjust text height for mobile */
     }
 }
