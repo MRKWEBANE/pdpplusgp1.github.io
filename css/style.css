@@ -9689,10 +9689,20 @@ textarea.form-control {
 /* Container for the horizontal scroll */
 .offer-slider {
     display: flex !important;
-    overflow-x: auto !important;
-    scroll-snap-type: x mandatory !important;
+    overflow: hidden !important; /* Hide overflow to prevent scrollbars */
     gap: 20px !important; /* Space between items */
     flex-wrap: nowrap !important; /* Prevent wrapping */
+    width: 100% !important; /* Ensure full width */
+    animation: scrollSlider 20s linear infinite !important; /* Animation to move the items */
+}
+
+@keyframes scrollSlider {
+    0% {
+        transform: translateX(0); /* Start from the beginning */
+    }
+    100% {
+        transform: translateX(-100%); /* Scroll to the left */
+    }
 }
 
 .offer-deal {
@@ -9749,4 +9759,3 @@ textarea.form-control {
         height: 50% !important; /* Adjust text height for mobile */
     }
 }
-
