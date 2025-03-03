@@ -42,3 +42,22 @@
   });
 
 })();
+
+ // this is for scrolll section
+ const offerSlider = document.getElementById("offerSlider");
+    const items = offerSlider.children;
+    const totalItems = items.length;
+    let currentIndex = 0;
+
+    function moveSlider() {
+        currentIndex++;
+        if (currentIndex >= totalItems) {
+            currentIndex = 0; // Loop back to the beginning
+        }
+
+        // Scroll to the next item
+        offerSlider.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    // Set interval for automatic sliding (adjust the time for the speed)
+    setInterval(moveSlider, 3000); // Move every 3 seconds
