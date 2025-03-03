@@ -9710,6 +9710,7 @@ textarea.form-control {
     background-position: center !important;
     height: 60% !important; /* Fixed height for the image (60% of the block height) */
     width: 100% !important; /* Ensure image covers the full width */
+    border-radius: 0 !important; /* Ensure the image is not circular */
 }
 
 .offer-deal .text {
@@ -9748,3 +9749,4 @@ textarea.form-control {
         height: 50% !important; /* Adjust text height for mobile */
     }
 }
+
