@@ -9821,6 +9821,8 @@ textarea.form-control {
 
 div.gallery {
   border: 1px solid #ccc;
+  margin-bottom: 15px;
+  text-align: center; /* Ensures the text aligns nicely within the description div */
 }
 
 div.gallery:hover {
@@ -9835,6 +9837,8 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  background-color: #f4f4f4; /* Optional: Adds a background to make the description stand out */
+  color: #333; /* Optional: Changes the text color for better readability */
 }
 
 * {
@@ -9865,6 +9869,7 @@ div.desc {
   display: table;
   clear: both;
 }
+
 
 
 
