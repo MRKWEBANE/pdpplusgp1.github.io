@@ -9759,3 +9759,53 @@ textarea.form-control {
         height: 50% !important; /* Adjust text height for mobile */
     }
 }
+
+
+
+
+
+
+
+
+
+.whatsapp-icon i {
+  font-size: 40px; /* Adjust the size as needed */
+  color: #000000;  /* WhatsApp Green */
+} 
+
+/* Custom hover color for navbar links */
+.navbar-nav .nav-link:hover {
+  color: #c68642 !important; /* Light blue color */
+}
+
+/* Add this to your CSS file to style the icons and numbers with light blue */
+.counter-wrap .icon {
+  font-size: 40px; /* Size of the icons */
+  color: #c68642; /* Light blue color for icons */
+  transition: color 0.3s ease;
+}
+
+.counter-wrap .number {
+  font-size: 40px; /* Size of the numbers */
+  color: #c68642; /* Light blue color for numbers */
+  transition: color 0.3s ease;
+}
+
+/* Optional: Add hover effect for the icon and number */
+.counter-wrap:hover .icon,
+.counter-wrap:hover .number {
+  color: #c68642; /* Slightly darker light blue for hover effect */
+}
+
+/* Remove the circle effect on the icon */
+.icon {
+  background: none !important;  /* Remove background if it's causing circles */
+  border: none !important;      /* Remove any border if present */
+  padding: 0 !important;        /* Remove padding that could create circles */
+  display: inline-block;        /* Make sure the icon stays inline with text */
+}
+
+.icon span {
+  font-size: 30px;  /* Set the icon size to your desired size */
+  color: #c68642;    /* Set the icon color to light blue */
+}
