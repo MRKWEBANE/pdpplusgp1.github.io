@@ -9819,6 +9819,11 @@ textarea.form-control {
 
 
 
+/* General Styles */
+* {
+  box-sizing: border-box;
+}
+
 div.gallery {
   border: 1px solid #ccc;
   margin-bottom: 15px;
@@ -9841,29 +9846,35 @@ div.desc {
   color: #333; /* Optional: Changes the text color for better readability */
 }
 
-* {
-  box-sizing: border-box;
-}
-
+/* Responsive Container */
 .responsive {
   padding: 0 6px;
-  float: left;
-  width: 24.99999%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery {
+  flex: 1 1 24%;  /* Set the width for large screens */
+  margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
+  .gallery {
+    flex: 1 1 48%;  /* Set the width for medium screens */
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
+  .gallery {
+    flex: 1 1 100%;  /* Set the width for small screens */
+  }
+  .desc {
+    padding: 10px;  /* Adjust padding in the description for small screens */
   }
 }
 
+/* Clearfix */
 .clearfix:after {
   content: "";
   display: table;
