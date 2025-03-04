@@ -9821,57 +9821,6 @@ textarea.form-control {
 
 
 
-div.gallery {
-  border: 1px solid #ccc !important;
-  margin-bottom: 15px !important;
-  text-align: center !important;
-  position: relative !important;  /* Ensure the gallery item doesn't collapse */
-}
-
-div.gallery:hover {
-  border: 1px solid #777 !important;
-}
-
-div.gallery img {
-  width: 100% !important;
-  height: auto !important;
-}
-
-div.desc {
-  padding: 15px !important;
-  text-align: center !important;
-  background-color: #f4f4f4 !important;
-  color: #333 !important;
-}
-
-/* Flexbox layout for responsive gallery */
-.responsive {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  justify-content: space-between !important;
-  gap: 15px !important; /* Space between gallery items */
-}
-
-.gallery {
-  flex: 1 1 24% !important;  /* For larger screens, 4 items in a row */
-  min-width: 200px !important; /* Minimum width to avoid shrinking too much */
-  box-sizing: border-box !important; /* Avoids padding issue on width */
-}
-
-@media only screen and (max-width: 700px) {
-  .gallery {
-    flex: 1 1 48% !important;  /* 2 items per row for medium screens */
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .gallery {
-    flex: 1 1 100% !important;  /* 1 item per row for small screens */
-  }
-  .desc {
-    padding: 10px !important;  /* Adjust padding for smaller devices */
-  }
-}
 
 
 
