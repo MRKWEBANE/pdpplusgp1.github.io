@@ -9819,10 +9819,6 @@ textarea.form-control {
 
 
 
-/* General Styles */
-* {
-  box-sizing: border-box;
-}
 
 div.gallery {
   border: 1px solid #ccc;
