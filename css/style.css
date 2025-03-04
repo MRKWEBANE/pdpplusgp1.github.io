@@ -9839,7 +9839,7 @@ textarea.form-control {
   top: 50%;
   width: 45px;
   height: 70%;
-  background-color: #f07b26;
+  background-color: #C68863;
   z-index: 3;
 }
 
@@ -9865,7 +9865,7 @@ textarea.form-control {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #f07b26;
+  background-color: #C68863;
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all .3s;
