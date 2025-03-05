@@ -9887,76 +9887,54 @@ textarea.form-control {
 
 
 
-   /* Service item button and hover effects */
-        .service-item {
-            transition: .5s !important;
-        }
+  .service-item {
+    transition: .5s;
+}
 
-        .service-item:hover {
-            margin-top: -10px !important;
-            box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08) !important;
-        }
+.service-item:hover {
+    margin-top: -10px;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+}
 
-        .service-item .btn {
-            width: 40px !important;
-            height: 40px !important;
-            display: inline-flex !important;
-            align-items: center !important;
-            justify-content: center !important; /* Center the icon */
-            background: #FFFFFF !important;
-            border-radius: 40px !important;
-            white-space: nowrap !important;
-            overflow: visible !important; /* Ensure the icon is not clipped */
-            transition: .5s !important;
-        }
+.service-item .btn {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .5s;
+}
 
-        .service-item:hover .btn {
-            width: 140px !important;
-        }
+.service-item:hover .btn {
+    width: 140px;
+}
 
-        /* Adjust icon size and color */
-        .service-item .btn i {
-            font-size: 20px !important; /* Adjust icon size */
-            color: #25D366 !important;  /* WhatsApp green color */
-        }
 
-        /* Add styles for the "Book Now" text */
-        .service-item .btn span {
-            margin-left: 10px !important; /* Space between icon and text */
-            font-size: 16px !important;   /* Adjust text size */
-            color: #25D366 !important;    /* Match WhatsApp color */
-            font-weight: bold !important; /* Make the text bold */
-            opacity: 0 !important;        /* Initially hide the text */
-            transition: opacity 0.5s ease-in-out !important;
-        }
+/*** Feature ***/
+@media (min-width: 992px) {
+    .container.feature {
+        max-width: 100% !important;
+    }
 
-        /* Show the text when hovering */
-        .service-item:hover .btn span {
-            opacity: 1 !important; /* Show the text */
-        }
+    .feature-text  {
+        padding-left: calc(((100% - 960px) / 2) + .75rem);
+    }
+}
 
-        /* Feature Text Styles (for responsiveness) */
-        @media (min-width: 992px) {
-            .container.feature {
-                max-width: 100% !important;
-            }
+@media (min-width: 1200px) {
+    .feature-text  {
+        padding-left: calc(((100% - 1140px) / 2) + .75rem);
+    }
+}
 
-            .feature-text  {
-                padding-left: calc(((100% - 960px) / 2) + .75rem) !important;
-            }
-        }
-
-        @media (min-width: 1200px) {
-            .feature-text  {
-                padding-left: calc(((100% - 1140px) / 2) + .75rem) !important;
-            }
-        }
-
-        @media (min-width: 1400px) {
-            .feature-text  {
-                padding-left: calc(((100% - 1320px) / 2) + .75rem) !important;
-            }
-        }
+@media (min-width: 1400px) {
+    .feature-text  {
+        padding-left: calc(((100% - 1320px) / 2) + .75rem);
+    }
+} 
 
 
 
