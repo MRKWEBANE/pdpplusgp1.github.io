@@ -9904,7 +9904,7 @@ textarea.form-control {
     background: #FFFFFF;
     border-radius: 40px;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: visible;
     transition: .5s;
 }
 
@@ -9941,26 +9941,6 @@ textarea.form-control {
 
 
 
- /* Custom styles whatsapp */
-        .whatsapp-btn i.fa-whatsapp {
-            font-size: 2em;        /* Adjust size */
-            color: #25D366;        /* WhatsApp green */
-            display: inline-block;
-            visibility: visible;
-        }
-        /* Button style */
-        .whatsapp-btn {
-            text-decoration: none;
-            padding: 10px 20px;
-            background-color: #25D366;  /* WhatsApp green background */
-            color: white;
-            font-size: 18px;
-            border-radius: 5px;
-            display: inline-flex;
-            align-items: center;
-        }
-        .whatsapp-btn i {
-            margin-right: 10px;  /* Space between icon and text */
-        }
+
 
 
