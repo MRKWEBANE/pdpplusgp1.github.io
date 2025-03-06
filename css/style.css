@@ -8938,11 +8938,11 @@ textarea.form-control {
   .ftco-footer .ftco-footer-widget ul li a span {
     color: #000; }
   .ftco-footer .ftco-footer-widget .btn-primary {
-    background: #fff !important;
-    border: 2px solid #fff !important; }
+    background: #B6A593 !important;
+    border: 2px solid #B6A593 !important; }
     .ftco-footer .ftco-footer-widget .btn-primary:hover {
-      background: #fff;
-      border: 2px solid #fff !important; }
+      background: #B6A593;
+      border: 2px solid #B6A593 !important; }
   .ftco-footer a {
     color: rgba(0, 0, 0, 0.5); }
     .ftco-footer a:hover {
