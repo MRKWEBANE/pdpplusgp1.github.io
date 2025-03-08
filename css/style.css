@@ -9839,7 +9839,7 @@ textarea.form-control {
   top: 50%;
   width: 45px;
   height: 70%;
-  background-color: #CC9900;
+  background-color: #cc9900;
   z-index: 3;
 }
 
@@ -9865,7 +9865,7 @@ textarea.form-control {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #CC9900;
+  background-color: #cc9900;
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all .3s;
@@ -9875,7 +9875,7 @@ textarea.form-control {
 }
 
 .about_section .detail-box a:hover {
-  background-color:  #CC9900 !important;
+  background-color: #cc9900 !important;
 }
 
 
