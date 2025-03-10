@@ -9939,11 +9939,21 @@ textarea.form-control {
 
 
 
-@media (max-width: 767.98px) { .navbar { background-color: #ffffff !important; color: #000 !important; } }
+@media (max-width: 767.98px) { .navbar { background-color: #ffffff !important; } }
 
 @media (max-width: 767.98px) {
   .navbar.ftco-bg-dark {
     background-color: #ffffff !important;
-    color: #000 !important;
+  }
+}
+
+
+
+@media (max-width: 767.98px) {
+  .navbar-nav .nav-link {
+    color: #000 !important; /* Default color on small screens */
+  }
+  .navbar-nav .nav-link:hover {
+    color: #c68642 !important; /* Keep hover color consistent, or change to #000 if preferred */
   }
 }
