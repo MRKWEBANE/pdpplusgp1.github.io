@@ -9880,6 +9880,31 @@ textarea.form-control {
 
 
 
+/* Ensure all paragraphs inside detail-box have consistent styling */
+.about_section .detail-box p {
+  color: #1f1f1f; /* Text color */
+  margin-top: 15px; /* Space above the paragraph */
+  font-size: 16px; /* Adjust the size to match other paragraphs */
+  line-height: 1.6; /* Spacing between lines */
+}
+
+/* Style the doctor info paragraph */
+.about_section .detail-box p span {
+  color: #cc9900; /* Color for the '+++', you can adjust the color as needed */
+  font-weight: bold; /* Make the span text bold */
+}
+
+/* Optional: You can add extra styling like background, padding, etc. if needed */
+.about_section .detail-box p {
+  padding: 15px; /* Add padding around the paragraph */
+  background-color: #f7f7f7; /* Light background color to make the block stand out */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  margin-bottom: 20px; /* Bottom margin for spacing */
+}
+
+
+
 
 
 
