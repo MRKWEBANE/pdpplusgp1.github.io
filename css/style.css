@@ -9981,3 +9981,28 @@ textarea.form-control {
     color: #000 !important; /* Black on hover/focus/active */
   }
 }
+
+
+
+
+
+ /* Navbar text color for the active item */
+    .navbar-nav .nav-item.active .nav-link {
+      color: #4CAF50 !important; /* Set this to your preferred color */
+    }
+
+    /* Navbar text color for the inactive items */
+    .navbar-nav .nav-item .nav-link {
+      color: white !important; /* Default color */
+      transition: color 0.3s ease !important;
+    }
+
+    /* Hover effect for nav links */
+    .navbar-nav .nav-item .nav-link:hover {
+      color: #ddd !important; /* Change to a lighter color on hover */
+    }
+
+    /* Navbar toggle button */
+    .navbar-toggler {
+      border-color: white !important; /* Make the toggle button border white */
+    }
