@@ -265,3 +265,18 @@
 
 })(jQuery);
 
+
+
+
+
+
+
+
+   // Handle the active class for navbar links (this will update when you navigate)
+    $(document).ready(function() {
+      $(".navbar-nav .nav-item").on("click", function() {
+        $(".navbar-nav .nav-item").removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+
