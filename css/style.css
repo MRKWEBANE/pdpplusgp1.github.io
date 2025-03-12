@@ -9994,7 +9994,7 @@ textarea.form-control {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4; /* Optional: Background color for better contrast */
+    background-color:#d3d3d3; /* Optional: Background color for better contrast */
 }
 
 .image-container {
