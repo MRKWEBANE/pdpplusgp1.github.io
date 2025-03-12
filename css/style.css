@@ -10013,3 +10013,36 @@ textarea.form-control {
 }
 
 
+
+
+
+.floating-text {
+    position: fixed; /* Fixed positioning so it stays at the top */
+    top: 50px; /* Adjust to position it at the top */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    white-space: nowrap;
+    animation: floatText 10s linear infinite;
+    z-index: 9999; /* Ensure it's above other elements */
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.floating-text span {
+    margin-right: 50px; /* Space between each "pdp+++gp" */
+}
+
+@keyframes floatText {
+    0% {
+        transform: translateX(100%); /* Start off-screen on the right */
+    }
+    100% {
+        transform: translateX(-100%); /* End off-screen on the left */
+    }
+}
+
+
