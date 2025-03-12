@@ -9984,3 +9984,29 @@ textarea.form-control {
 
 
 
+
+.block-20 {
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    height: 100% !important;  /* Ensures the height adjusts properly */
+}
+
+.blog-entry {
+    height: auto !important;  /* Allow height to adjust based on content */
+    width: 100% !important;   /* Ensure full width of the column */
+}
+
+.block-20 img {
+    object-fit: contain !important;  /* Ensures the image fits within the container */
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Additional responsive styling if needed */
+@media (max-width: 768px) {
+    .block-20 {
+        background-size: cover !important;  /* You can switch back to 'cover' on small screens if desired */
+    }
+}
+
