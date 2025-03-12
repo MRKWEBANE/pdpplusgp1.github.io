@@ -9993,7 +9993,7 @@ textarea.form-control {
 }
 
 .blog-entry {
-    height: auto !important;  /* Allow height to adjust based on content */
+    height: 100% !important;  /* Allow height to adjust based on content */
     width: 100% !important;   /* Ensure full width of the column */
 }
 
