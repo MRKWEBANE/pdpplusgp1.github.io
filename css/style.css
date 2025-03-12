@@ -9985,35 +9985,31 @@ textarea.form-control {
 
 
 
-.block-20 {
-    background-size: contain !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    height: 100% !important;  /* Ensures the height adjusts properly */
+
+
+
+.pila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4; /* Optional: Background color for better contrast */
 }
 
-.blog-entry {
-    height: auto !important;  /* Allow height to adjust based on content */
-    width: 100% !important;   /* Ensure full width of the column */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px; /* Space between the images */
+    max-width: 900px; /* Maximum width for the container */
+    width: 100%;
+    text-align: center;
 }
 
-.block-20 img {
-    object-fit: contain !important;  /* Ensures the image fits within the container */
-    width: 100% !important;
-    height: 100% !important;
+.image-container img {
+    width: 100%; /* Makes the image fill the column width */
+    height: auto; /* Keeps the aspect ratio intact */
+    border-radius: 8px; /* Optional: Rounded corners */
 }
 
-/* Additional responsive styling if needed */
-@media (max-width: 768px) {
-    .block-20 {
-        background-size: cover !important;  /* You can switch back to 'cover' on small screens if desired */
-    }
-}
-
-/* Ensure that the blog entries stack on smaller screens (mobile view) */
-@media (max-width: 768px) {
-    .col-md-4 {
-        width: 100% !important;  /* Each item takes full width on smaller screens */
-    }
-}
 
