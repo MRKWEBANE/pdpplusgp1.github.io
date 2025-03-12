@@ -10010,3 +10010,10 @@ textarea.form-control {
     }
 }
 
+/* Ensure that the blog entries stack on smaller screens (mobile view) */
+@media (max-width: 768px) {
+    .col-md-4 {
+        width: 100% !important;  /* Each item takes full width on smaller screens */
+    }
+}
+
