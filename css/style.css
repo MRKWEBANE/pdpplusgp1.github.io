@@ -10000,7 +10000,7 @@ textarea.form-control {
 .image-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    grid-gap: 20px; /* Space between the images */
+    grid-gap: 40px; /* Space between the images */
     max-width: 900px; /* Maximum width for the container */
     width: 100%;
     text-align: center;
