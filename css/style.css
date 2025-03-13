@@ -10019,8 +10019,7 @@ textarea.form-control {
 
 
 .floating-text {
-    /* Fixed positioning so it stays at the top */
-    top: 50px; /* Adjust to position it at the top */
+    top: 50px;
     left: 0;
     right: 0;
     display: flex;
@@ -10028,23 +10027,35 @@ textarea.form-control {
     align-items: center;
     white-space: nowrap;
     animation: floatText 10s linear infinite;
-    z-index: 9999; /* Ensure it's above other elements */
+    z-index: 9999;
     font-size: 24px;
     font-weight: bold;
     color: #000;
 }
 
 .floating-text span {
-    margin-right: 50px; /* Space between each "pdp+++gp" */
+    margin-right: 50px;
+}
+
+.pdp, .gp {
+    color: black; /* Make 'pdp' and 'gp' black */
+}
+
+.plus {
+    background-color: white; /* White background for '+++' */
+    color: gray; /* Gray color for '+++' */
+    padding: 2px 5px; /* Add some padding to '+++' */
+    border-radius: 3px; /* Optional: rounded corners for the '+++' */
 }
 
 @keyframes floatText {
     0% {
-        transform: translateX(100%); /* Start off-screen on the right */
+        transform: translateX(100%);
     }
     100% {
-        transform: translateX(-100%); /* End off-screen on the left */
+        transform: translateX(-100%);
     }
 }
+
 
 
