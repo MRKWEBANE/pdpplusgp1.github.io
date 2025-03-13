@@ -9994,7 +9994,7 @@ textarea.form-control {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #d3d3d3; /* Optional: Background color for better contrast */
+    background-color:#d3d3d3; /* Optional: Background color for better contrast */
 }
 
 .image-container {
@@ -10012,8 +10012,6 @@ textarea.form-control {
     border-radius: 8px; /* Optional: Rounded corners */
     border-right: 16px solid #ADEBB3; /* Border on the right side */
     border-bottom: 16px solid #ADEBB3; /* Border on the bottom side */
-    margin-right: -16px; /* Pulls the image to the right */
-    margin-bottom: -16px; /* Pulls the image down */
 }
 
 
