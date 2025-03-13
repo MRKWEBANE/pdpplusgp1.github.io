@@ -10019,7 +10019,7 @@ textarea.form-control {
 /* Move both the 4th and 5th images to the right */
 .image-container img:nth-child(4),
 .image-container img:nth-child(5) {
-    margin-left: 70px; /* Adds a left margin to both the 4th and 5th images */
+    margin-left: 140px; /* Adds a left margin to both the 4th and 5th images */
 }
 
 
