@@ -10017,7 +10017,7 @@ textarea.form-control {
 
 
 .floating-text {
-    position: fixed; /* Fixed positioning so it stays at the top */
+     /* Fixed positioning so it stays at the top */
     top: 50px; /* Adjust to position it at the top */
     left: 0;
     right: 0;
