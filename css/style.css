@@ -10040,7 +10040,7 @@ textarea.form-control {
 }
 
 .pdp, .gp {
-    color: black; /* Make 'pdp' and 'gp' black */
+    color: #fff; /* Make 'pdp' and 'gp' black */
 }
 
 .plus {
