@@ -10014,7 +10014,7 @@ textarea.form-control {
     border-bottom: 16px solid #D4AF37; /* Border on the bottom side */
 }
 
-/* For centering the last two images */
+/* For centering the last two images in the same row */
 .image-container img:nth-child(4) {
     grid-column: 2 / 3; /* Places the 4th image in the center column */
 }
