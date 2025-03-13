@@ -9994,7 +9994,7 @@ textarea.form-control {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color:#d3d3d3; /* Optional: Background color for better contrast */
+    background-color: #d3d3d3; /* Optional: Background color for better contrast */
 }
 
 .image-container {
@@ -10010,9 +10010,22 @@ textarea.form-control {
     width: 100%; /* Makes the image fill the column width */
     height: auto; /* Keeps the aspect ratio intact */
     border-radius: 8px; /* Optional: Rounded corners */
-    border-right: 16px solid #ADEBB3; /* Border on the right side */
-    border-bottom: 16px solid #ADEBB3; /* Border on the bottom side */
+    position: relative;
 }
+
+.image-container img::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%; /* Border will cover the right half */
+    height: 50%; /* Border will cover the bottom half */
+    border-right: 16px solid #ADEBB3; /* Right border */
+    border-bottom: 16px solid #ADEBB3; /* Bottom border */
+    border-radius: 0 0 8px 0; /* Optional: Rounded bottom right corner */
+    pointer-events: none; /* So it doesn't interfere with image clicks */
+}
+
 
 
 
