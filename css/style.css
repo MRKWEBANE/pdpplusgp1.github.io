@@ -10046,7 +10046,7 @@ textarea.form-control {
 .plus {
     background-color: white; /* White background for '+++' */
     color: gray; /* Gray color for '+++' */
-    padding: 2px 5px; /* Add some padding to '+++' */
+    padding: 2px 2px; /* Add some padding to '+++' */
     border-radius: 3px; /* Optional: rounded corners for the '+++' */
 }
 
