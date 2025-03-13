@@ -9994,7 +9994,7 @@ textarea.form-control {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color:#d3d3d3; /* Optional: Background color for better contrast */
+    background-color: #d3d3d3; /* Optional: Background color for better contrast */
 }
 
 .image-container {
@@ -10013,6 +10013,16 @@ textarea.form-control {
     border-right: 16px solid #D4AF37; /* Border on the right side */
     border-bottom: 16px solid #D4AF37; /* Border on the bottom side */
 }
+
+/* For centering the last two images */
+.image-container img:nth-child(4) {
+    grid-column: 2 / 3; /* Places the 4th image in the center column */
+}
+
+.image-container img:nth-child(5) {
+    grid-column: 2 / 3; /* Places the 5th image in the center column */
+}
+
 
 
 
