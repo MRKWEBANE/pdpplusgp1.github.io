@@ -10010,8 +10010,8 @@ textarea.form-control {
     width: 100%; /* Makes the image fill the column width */
     height: auto; /* Keeps the aspect ratio intact */
     border-radius: 8px; /* Optional: Rounded corners */
-    border-right: 16px solid #B78700; /* Border on the right side */
-    border-bottom: 16px solid #B78700; /* Border on the bottom side */
+    border-right: 16px solid #ADEBB3; /* Border on the right side */
+    border-bottom: 16px solid #ADEBB3; /* Border on the bottom side */
 }
 
 
