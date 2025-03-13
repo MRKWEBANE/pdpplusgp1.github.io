@@ -10016,7 +10016,7 @@ textarea.form-control {
 
 /* To push the 4th image to the right */
 .image-container img:nth-child(4) {
-    margin-left: 20px; /* Adds a left margin to the 4th image */
+    margin-left: 70px; /* Adds a left margin to the 4th image */
 }
 
 
